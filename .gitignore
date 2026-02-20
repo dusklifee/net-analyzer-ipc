@@ -1,0 +1,30 @@
+# Build directories
+build/
+bin/
+lib/
+*.o
+*.so
+*.a
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+cmake_install.cmake
+
+# Python
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# IPC
+*.fifo
+/tmp/netgate_stats.fifo
+
+# Tarantool runtime (WAL, snapshots)
+/tmp/netgate_tarantool/
+*.snap
+*.xlog
